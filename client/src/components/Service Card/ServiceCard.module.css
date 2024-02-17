@@ -1,0 +1,7 @@
+.icon {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+.relative:hover .icon {
+  transform: translateX(-50px);
+}

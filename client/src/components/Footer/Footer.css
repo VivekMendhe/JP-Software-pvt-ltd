@@ -1,0 +1,34 @@
+/* OurPage.module.css */
+
+.our-page-heading {
+  position: relative;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.our-page-heading:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 0px;
+  height: 1px;
+  width: 30px;
+  box-sizing: border-box;
+}
+
+/* Footer.css */
+
+/* .list-link ul {
+  margin-left: 20px;
+} */
+
+.list-link ul li {
+  margin-left: 85px;
+  display: flex;
+
+  margin-right: 20px;
+  list-style: none;
+}
