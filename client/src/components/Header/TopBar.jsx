@@ -12,14 +12,16 @@ const TopBar = () => {
         <div className="hidden md:flex mr-4 items-center justify-center">
           <NavLink to={`#`} className={`flex`}>
             <IoIosMail className="me-2 text-2xl" />
-            <h1 className="hover:text-red-800 ">jpsoftwarepvtltd@gmail.com</h1>
+            <h1 className="hover:text-red-800 ">
+              techworldsoftware3@gmail.com
+            </h1>
           </NavLink>
         </div>
         <div className="hidden md:flex items-center justify-center">
           <NavLink to={`#`} className="flex">
             <IoCall className="me-2 text-2xl" />
             <h1 className="hover:text-red-800">
-              +91 <span>878</span> <span>886</span> <span>4318</span>
+              +91 <span>932</span> <span>261</span> <span>7081</span>
             </h1>
           </NavLink>
         </div>

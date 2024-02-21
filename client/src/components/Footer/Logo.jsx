@@ -14,17 +14,17 @@ const Logo = () => {
       <div>
         <div className=" flex items-center  text-slate-700 ">
           <Link to="">
-            <div className="h-10 w-10 bg-[#be271c] flex items-center justify-center mr-2">
+            <div className="h-10 w-10 bg-[#be271c] hover:text-slate-100 rounded-sm flex items-center justify-center mr-2">
               <FaFacebookF className=" text-1xl" />
             </div>
           </Link>
           <Link to="">
-            <div className="h-10 w-10 bg-[#be271c] flex items-center justify-center mr-2">
+            <div className="h-10 w-10 bg-[#be271c] hover:text-slate-100 rounded-sm flex items-center justify-center mr-2">
               <FaLinkedinIn className=" text-1xl" />
             </div>
           </Link>
           <Link to="">
-            <div className="h-10 w-10 bg-[#be271c] flex items-center justify-center">
+            <div className="h-10 w-10 bg-[#be271c] hover:text-slate-100 rounded-sm flex items-center justify-center">
               <FaInstagram className="text-1xl" />
             </div>
           </Link>
